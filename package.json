@@ -1,0 +1,35 @@
+{
+  "name": "minimalist-frontend-template",
+  "version": "1.0.0",
+  "description": "A minimal frontend template that only uses only esbuild and esinstall",
+  "scripts": {
+    "postinstall": "node ./scripts/install-modules.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimi/minimalist-frontend-template.git"
+  },
+  "keywords": [
+    "minimal",
+    "esbuild",
+    "esinstall",
+    "snowpack"
+  ],
+  "author": "Nicholas Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimi/minimalist-frontend-template/issues"
+  },
+  "homepage": "https://github.com/nimi/minimalist-frontend-template#readme",
+  "dependencies": {
+    "dom-confetti": "0.2.2"
+  },
+  "esinstall": {
+    "install": [
+      "dom-confetti"
+    ]
+  },
+  "devDependencies": {
+    "esinstall": "1.1.7"
+  }
+}
